@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+
+        <!-- 启用 -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>启用</string>
+            <key>footerText</key>
+            <string>关闭后本插件全部功能失效，图标大小与名称恢复系统默认</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Enable</string>
+            <key>key</key>
+            <string>enabled</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.imodcommission.iconsizefix</string>
+        </dict>
+
+        <!-- 图标大小 -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>图标大小</string>
+            <key>footerText</key>
+            <string>基于 SBIconImageInfo 缩放，可与 SnowBoard、26Home 叠加</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>label</key>
+            <string>图标缩放</string>
+            <key>key</key>
+            <string>iconScale</string>
+            <key>default</key>
+            <real>1.0</real>
+            <key>min</key>
+            <real>0.5</real>
+            <key>max</key>
+            <real>1.5</real>
+            <key>showValue</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.imodcommission.iconsizefix</string>
+        </dict>
+
+        <!-- 名称显示 -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>名称显示</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>隐藏 App 名称</string>
+            <key>key</key>
+            <string>hideAppNames</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>com.imodcommission.iconsizefix</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>隐藏小组件名称</string>
+            <key>key</key>
+            <string>hideWidgetNames</string>
+            <key>default</key>
+            <false/>
+            <key>defaults</key>
+            <string>com.imodcommission.iconsizefix</string>
+        </dict>
+
+        <!-- 操作 -->
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>操作</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>重新加载设置</string>
+            <key>action</key>
+            <string>reloadPrefs</string>
+        </dict>
+
+    </array>
+</dict>
+</plist>

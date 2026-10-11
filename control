@@ -1,0 +1,9 @@
+Package: com.imodcommission.iconsizefix
+Name: IconSizeFix
+Depends: mobilesubstrate
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: 独立调整图标大小 / 隐藏 App 与小组件名称（roothide 兼容）
+Maintainer: imod_commission
+Author: imod_commission
+Section: Tweaks
